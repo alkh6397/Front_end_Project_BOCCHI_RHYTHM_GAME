@@ -1,0 +1,71 @@
+@font-face {
+    font-family:maple_bold;
+    src: url("../Fonts/Maplestory_Bold.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: maple_bold;
+    background-color: bisque;
+    margin:0;
+    overflow:hidden;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 80px;
+}
+h2{
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+hr{
+    background: black;
+    height:10px;
+    border:0;
+}
+.slider-container{
+    display:flex;
+    transition:transform 0.5s ease;
+    will-change:transform;
+}
+.viewport{
+    width:100vw;
+    height:80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide{
+    width:80vw;
+    margin: 0 10vw;
+    flex-shrink:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+button{
+    width:30%;
+    height:200px;
+    font-size:24px;
+    cursor:pointer;
+}
+.music_title{
+    position:absolute;
+    bottom:350px;
+    padding:5px;
+    font-size: 40px;
+}
+.difficulty{
+    position:absolute;
+    bottom:310px;
+    padding:5px;
+    font-size: 25px;
+}
+.title_class{
+    
+}
